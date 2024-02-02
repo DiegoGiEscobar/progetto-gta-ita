@@ -1,0 +1,66 @@
+@media (max-width: 1024px){
+   .cabecalho{
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0;
+    gap: 15px;
+   }
+
+   .cabecalho .menu li a{
+    padding: 15px;
+   }
+
+   .home .informazioni{
+    padding: 30px;
+   }
+
+   .home .informazioni img{
+    max-width: 100px;
+   }
+
+   .home .informazioni .titolo{
+    font-size: 40px;
+   }
+
+   .compra-ora .cartao{
+    width: 70%;
+   }
+}
+
+@media (max-width: 768px){
+    .compra-ora{
+        padding: 30px;
+    }
+
+    .compra-ora .cartao{
+        padding: 80px 20px;
+        width: 100%
+    }
+
+    .compra-ora .informazioni h3{
+        font-size: 35px;
+    }
+
+    .compra-ora .informazioni .piattaforme{
+flex-direction: column;
+    }
+
+    .btn-piattaforma{
+        margin-top: 15px;
+        padding: 15px;
+    }
+
+    .btn-compra{
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px){
+   main::after{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 85), rgba(0, 0, 0, 0.4) 100%, transparent 65%);
+   } 
+
+   .compra-ora .cartao .copertina-del-gioco{
+    max-width: 80%;
+   }
+}
